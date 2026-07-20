@@ -349,8 +349,8 @@ def render_results() -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="EPİAŞ Santral Data Puller", page_icon="⚡", layout="wide")
-    st.title("⚡ EPİAŞ Santral Data Puller")
+    st.set_page_config(page_title="EPİAŞ Santral Data Puller", page_icon="🗠", layout="wide")
+    st.title("🗠 EPİAŞ Santral Data Puller")
     st.caption(
         "Fetch hourly realtime generation data for an EPİAŞ power plant "
         "and export it to CSV."
