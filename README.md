@@ -4,8 +4,7 @@ A Streamlit web app for pulling hourly realtime generation data for a power
 plant ("santral") from the [EPİAŞ Transparency Platform](https://seffaflik.epias.com.tr/),
 exporting the result as CSV.
 
-It's a UI wrapper around the same two-stage flow as the original
-`fetchKarapinarGES.py` script: log in to EPİAŞ to get a session ticket (TGT),
+Script: log in to EPİAŞ to get a session ticket (TGT),
 then use that ticket to pull hourly generation data for a plant over a date
 range.
 
